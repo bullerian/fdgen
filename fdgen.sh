@@ -64,6 +64,9 @@ dirCnt=0
 fileCount=0
 foldersPath=''
 
+printf 'This script generates recursive list file & directory structure\n
+Will be generated %d folders named \"%s\" and %d files named \"%s %s\" in each of them\n' $LEVELS $DNAME $FCOUNT $FNAME.$FEXT
+
 while [ $dirCnt -lt $LEVELS ]; do
   foldersPath+="/$DNAME$((++dirCnt))"
   mkdir "$PTH$foldersPath"
