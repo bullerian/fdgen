@@ -1,4 +1,4 @@
-Script for generating binary tree or list file & directory structures
+Script for generating recursive list file & directory structure
 
 Usage:
 fdgen [OPTION]...
